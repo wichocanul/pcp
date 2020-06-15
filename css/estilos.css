@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor{
+    background: rgb(0, 173, 253);
+    margin-top: 70px;
+}
+
+.gris{
+    background: #01221e;
+}
+
+.top-nav-collapse{
+    background: rgba(0, 0, 0, 0.842) !important;
+}
+
+nav img{
+    margin-right: 100px;
+}
+
+/*----------------PRESENTAR----------------------*/
+
+.presentar{
+    text-align: center;
+}
+
+.presentar img{
+    width: 90%;
+}
+
+.presentar h6, .presentar h2{
+    color: white;
+    font-weight: bold;
+}
+
+p{
+    font-family: 'Nunito Sans';
+}
+
+.integrantes{
+    margin-top: 20px;
+}
+
+.tarjetas{
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.tarjetas img{
+    position: absolute;
+    width: 100%;
+    height: 120px;
+    padding: 10px;
+    left: 0%;
+    top: 20px;
+    transition: all .5s ease-out;
+}
+
+.tarjetas img:hover{
+    height: 125px;
+    top: 18px;
+}
+
+.tarjetas h4{
+    margin-top: 155px;
+}
+
+.tarjetas p{
+    text-align: justify;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+
+.tarjeta1{
+    background: rgb(14, 112, 92);
+    transition: all 1s ease;
+}
+
+.tarjeta1:hover{
+    background: #15a88b;
+}
+
+.tarjeta2{
+    background: rgb(182, 151, 29);
+    transition: all 1s ease;
+}
+
+.tarjeta2:hover{
+    background: #F4D03F;
+}
+
+.tarjeta3{
+    background: rgb(163, 47, 34);
+    transition: all 1s ease;
+}
+
+.tarjeta3:hover{
+    background: #E74C3C;
+}
+
+
+/*========================= TEMAS ==================================*/
+
+.introTemas{
+    font-size: 1em;
+    margin-bottom: 5px;
+}
+
+.introTemas h1{
+    font-size: 5em;
+    font-weight: bold;
+}
+
+.introTemas p{
+    color: black;
+    text-align: justify;
+}
+
+
+.fondoTemas{
+    padding: 10px;
+    background: #181818;
+    border-radius: 5px;
+    color: #000;
+}
+
+.fondoTemas .blur img{
+    width: 60px;
+    margin: 10px;
+}
+
+.tema{
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    height: 200px;
+    margin-bottom: 30px;
+}
+
+.aparecer{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    text-align: center;
+
+    transform: translateY(100%);
+    transition: all .3s ease-out;
+}
+
+.tema:hover .aparecer{
+    transform: translateY(0%);
+}
+
+.tema .blur{
+    transition: all .3s ease;
+}
+
+.tema:hover .blur{
+    filter: blur(5px);
+}
+
+#tema1, #tema8{
+    background: #00e676;
+}
+#tema2, #tema11{
+    background: #f50057;
+}
+#tema3, #tema7{
+    background: #ff3d00;
+}
+#tema4, #tema10{
+    background: #7b1fa2;
+}
+#tema5, #tema13{
+    background: #b00020;
+}
+#tema6, #tema12{
+    background: #03dac6;
+}
+
+.aparecer p{
+    margin: 0;
+}
+
+.aparecer a{
+    color: #fff;
+}
+
+.aparecer a:hover{
+    color: rgb(11, 224, 143);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*==================ERROR 404*/
+.error img{
+    width: 80%;
+}
+
+.error .icono{
+    width: 50px;
+    margin: 0 10px;
+    transition: all .5s ease;
+}
+
+.error .descarga{
+    width: 250px;
+    margin: 10px auto;
+}
+
+.error a{
+    color: rgb(209, 40, 40);
+    font-weight: bold;
+    transition: all .5s ease;
+}
+
+.error a:hover{
+    color: rgb(15, 3, 3);
+}
+
+.error .descarga p{
+    margin: 15px 5px;
+}
